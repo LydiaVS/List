@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  color: #4a5b65;
+}
+
+h1 {
+  font-size: 40px;
+  color: #1c2340;
+}
+
+input {
+  font-size: 18px;
+  text-align: center;
+}
+
+.add {
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #DE893F;
+}
+
+.box {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  border: 3px solid #26401c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 119vh;
+}
+
+.header h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.header .text {
+  position: relative;
+  text-align: center;
+}
+
+.header .text .add {
+  border-top-right-radius: 10px;
+  position: absolute;
+  width: 45px;
+  height: 66px;
+  color: #4a5b65;
+  cursor: pointer;
+  background-color: #171d37;
+  border: none;
+}
+
+.header .text .add:hover {
+  color: white;
+}
+
+.header .text input {
+  border-top-left-radius: 10px;
+  width: 250px;
+  height: 66px;
+  background-color: #171d37;
+  border: none;
+  color: white;
+}
+
+.div-list {
+  width: 120vh;
+}
+
+.div-list #list {
+  background-color: #171d37;
+}
+
+.div-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+  padding: 12px 0;
+  background: #171d37;
+  font-size: 18px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #1c2340;
+}
+
+.div-list ul li:hover {
+  background-color: #262e4c;
+  color: #b1b2c9;
+}
+
+.div-list ul li:hover p {
+  text-decoration: line-through;
+}
+
+.div-list ul li .btn-delete {
+  cursor: pointer;
+  background-color: transparent;
+  color: #4a5b65;
+  border: none;
+}
+
+.div-list ul li .btn-delete:hover {
+  color: #b1b2c9;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
