@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+#btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 53px;
+  color: #000;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 53px;
+  color: #44DEAA;
+}
+
+.rotated {
+  -webkit-animation: rotation 8s infinite linear;
+          animation: rotation 8s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+/* Reset browser styles */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End Reset browser styles */
+/* Custom styles */
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+html .line, body .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html #nivel, body #nivel {
+  background-color: #0F0E0E;
+}
+
+html #nivel .space, body #nivel .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html #index, body #index {
+  background-color: #44DEAA;
+}
+
+html #index .men, body #index .men {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 6px solid #000000;
+  margin-top: 75px;
+}
+
+html #index .men #btn, body #index .men #btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #0F0E0E;
+  margin: 10px 120px;
+}
+
+html #index .men #btn:hover, body #index .men #btn:hover {
+  color: #EDFCF7;
+}
+
+.rotated {
+  height: 415px;
+  margin-top: 50px;
+}
+
+#pop {
+  display: none;
+}
+
+#pop .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40vh;
+}
+
+a {
+  fill: #44DEAA;
+  margin-top: 10px;
+}
+
+a:hover {
+  fill: #EDFCF7;
+}
+
+.cajas {
+  width: 150px;
+  -ms-touch-action: none;
+      touch-action: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 30px;
+}
+
+#basura {
+  display: none;
+  width: 263px;
+  height: 173px;
+  margin-top: 90px;
+}
+
+#papel {
+  display: none;
+  margin-top: 99px;
+}
+
+#vidrio {
+  margin-top: 65px;
+}
+
+.dropzones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 230px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dropzones .azul, .dropzones .amarillo, .dropzones .verde {
+  width: 243px;
+  height: 242px;
+  margin-right: 130px;
+}
+
+.dropzones .amarillo {
+  width: 227px;
+  height: 242px;
+  margin-right: 130px;
+}
+
+.dropzones .verde {
+  width: 227px;
+  height: 242px;
+}
+
+.dropzones .marron {
+  width: 227px;
+  height: 242px;
+}
+/*# sourceMappingURL=styles.css.map */
